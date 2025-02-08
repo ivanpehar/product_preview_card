@@ -49,13 +49,13 @@ Users should be able to:
 
 One major challenge I faced was **structuring the layout with CSS Grid**. Initially, the content wouldn’t stack properly when switching to mobile view. The problem was that I **forgot to define `grid-template-columns: 1fr;`** in my media query. After identifying this issue, I corrected it by applying the following:
 
-```css
+/* ```css*/
 @media (max-width: 430px) {
     .mc {
         display: grid;
         grid-template-columns: 1fr; /* This fixed the issue */
     }
-}
+}*/
 
 ## Continued development
 
