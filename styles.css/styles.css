@@ -1,0 +1,158 @@
+.txtpr1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0;  
+}
+
+.txtpr2 {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0;
+}
+
+.txtpr3 {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.txtpr4 {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+body {
+    background-color: #F2EAE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.mc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img1 {
+    height: 450px;
+    display: block;
+    border-radius: 10px 0 0 10px;
+}
+
+.mcc2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 32px;
+}
+
+h2 {
+    color: #6C7289;
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    color: #1C232B;
+    margin: 0 0 24px 0;
+}
+
+.mcc2 > p {
+    color: #6C7289;
+    margin: 0 0 29px 0;
+}
+
+.mcc2r1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mcc2r1 > .txtpr1 {
+    color: #3D8168;
+    margin: 0;
+} 
+
+.mcc2r1 > .txtpr2 {
+    color: #6C7289;
+    text-decoration: line-through;
+    padding-left: 19px;
+    margin: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 16px 0;
+    background-color: #3D8168;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.icon1 {
+    padding-right: 11.5px;
+    
+}
+
+.btn:hover {
+    background: #1A4032;
+}
+
+@media (max-width: 430px) {
+    .mc {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 240px auto;
+        width: 343px;
+        height: 611px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .img1 {
+        width: 100%;
+        object-fit: cover;
+        margin-top: -90px;
+    }
+    .mcc2 {
+        background-color: white;
+        padding: 24px;
+    }
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+    .mcc2 > h1 {
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 0;
+        margin: 0 0 57px 0;
+    }
+    .mcc2 > p {
+        margin: 0 0 24px 0;
+    }
+    .mcc2r1 {
+        margin: 0;
+    }
+    .btn {
+        margin: 20px 0 0 0;
+    }
+}
