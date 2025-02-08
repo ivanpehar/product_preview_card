@@ -47,8 +47,13 @@ body {
     border-radius: 10px;
 }
 
+.mcc1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .img1 {
-    height: 450px;
+    height: 452px;
     display: block;
     border-radius: 10px 0 0 10px;
 }
